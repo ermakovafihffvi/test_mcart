@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/jquery.modal.min.css">
+    <link rel="stylesheet" href="css/ui.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/request-unep15.css">
+    <title>Main</title>
+</head>
+
+<body>
+    <header class="main-head">
+        <section class="header-wrapper">
+            <a href="#" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+            <a href="/" class="logo-wrapper">
+                <img src="img/logo.svg" alt="">
+            </a>
+            <div class="search-wrapper main-search">
+                <!-- <div class="search-mobile__btn">
+                    <img src="img/ui/search-blue.svg" alt="">
+                </div> -->
+                <div class="search-holder" style="/* display: none; */">
+                    <button class="search-button">
+                        <img src="img/search.svg" alt="">
+                    </button>
+                </div>
+            </div>
+            <div class="general-container__right">
+                <div class="upper-menu">
+                    <div class="menu-item with-dd">
+                        <a href="#" class="menu-item__name">
+                            <span>О компании</span>
+                        </a>
+                        <div class="menu-dropdown">
+                            <div class="menu-dropdown__item with-dd">
+                                <a href="#" class="menu-item__name">
+                                    <span>Структурные подразделения</span>
+                                </a>
+                                <div class="menu-dropdown">
+                                    <a href="#" class="menu-item__name">
+                                        <span>Административное управление</span>
+                                    </a>
+                                    <a href="#" class="menu-item__name">
+                                        <span>Дирекция казначейства</span>
+                                    </a>
+                                    <a href="#" class="menu-item__name">
+                                        <span>Филиал ООО «Центр корпративных решений» в г. Воронеже</span>
+                                    </a>
+                                    <a href="#" class="menu-item__name">
+                                        <span>Управление сопровождения закупок</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="menu-dropdown__item with-dd">
+                                <a href="#" class="menu-item__name">
+                                    <span>Структурные подразделения</span>
+                                </a>
+                                <div class="menu-dropdown">
+                                    <a href="#" class="menu-item__name">
+                                        <span>Административное управление</span>
+                                    </a>
+                                    <a href="#" class="menu-item__name">
+                                        <span>Дирекция казначейства</span>
+                                    </a>
+                                    <a href="#" class="menu-item__name">
+                                        <span>Филиал ООО «Центр корпративных решений» в г. Воронеже</span>
+                                    </a>
+                                    <a href="#" class="menu-item__name">
+                                        <span>Управление сопровождения закупок</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item__name">
+                            <span>Сервисы</span>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item__name">
+                            <span>Полезная информация</span>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item__name">
+                            <div class="status-task"></div>
+                            <span class="title-item">Мои задачи</span>
+                            <div class="num-task"><span>19</span></div>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item__name">
+                            <a href="#" class="btn filled">Помощь</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="user-profile">
+                    <a href="profile-self.html" class="user-avatar" style="background-image: url(img/image-profile.png)"></a>
+                    <div class="profile-desc">
+                        <div class="name-people">Константинопольский И. К.</div>
+                        <div class="count-table">
+                            <p>Таб. номер </p><span> 156479</span>
+                        </div>
+                    </div>
+                    <a class="user-logout">
+                        <img src="img/logout.svg" alt="">
+                        <div class="modal-logout">
+                            <div class="modal-logout__wrapper">
+                                <div class="white-block">
+                                    <h2>Вы уверены что хотите выйти?</h2>
+                                    <div class="line-block centered">
+                                        <button class="btn filled"><span>Да</span></button>
+                                        <button class="btn borderless"><span>Нет</span></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <aside class="main-sidebar">
+            <div class="sidebar-menu">
+                <a class="sidebar-menu__item" href="#">
+                    <span class="sidebar-item__icon">
+                        <img src="img/star.svg" alt="">
+                    </span>
+                    <span>Предложи идею</span>
+                </a>
+                <a class="sidebar-menu__item" href="#">
+                    <span class="sidebar-item__icon">
+                        <img src="img/screen.svg" alt="">
+                    </span>
+                    <span>Success factors</span>
+                </a>
+                <a class="sidebar-menu__item" href="#">
+                    <span class="sidebar-item__icon">
+                        <img src="img/bag.svg" alt="">
+                    </span>
+                    <span>Дистанционная работа</span>
+                </a>
+            </div>
+            <a href="#" class="work-from-home">
+                <span>Работать из дома</span><br>
+                <span>очень просто</span>
+            </a>
+            <a href="#" class="btn iconed support-center">
+                <span>
+                    <img src="img/support.svg" alt="">
+                </span>
+                <span>Центр поддержки</span>
+            </a>
+        </aside>
+        <section class="main-content main-page">
+            <section class="wrapper tsp">
+                <div class="breadcrumbs">
+                    <ul class="breadcrumbs-items ">
+                        <li class="breadcrumb-item"><a href="#">Мои задачи</a></li>
+                    </ul>
+                </div>
+                <div class="heading-conteiner">
+                    <div class="heading-wrapper">
+                        <div class="heading__title-page">
+                            <a href="#">
+                                <img src="./img/services/icon-arrow back.svg" alt="arrow">
+                            </a>
+                            <h1>Получение УНЭП</h1>
+                        </div>
+                        <div class="button-wrapper">
+                            <a href="#"><img src="./img/icon-board.svg" alt="">Инструкция по сервису</a>
+                        </div>
+                    </div>
+                </div>
+                <section class="page-wrapper">
+                    <div class="sd-status-tabs-wrapper block">
+                        <h2>Статус</h2>
+                        <div class="status-steps-wrapper">
+                            <a href="#" class="status-step-arrow left hidden">
+                                <img src="img/arrow-back.svg" alt="">
+                            </a>
+                            <div class="sd-status-tabs">
+                                <a href="#sd-status-tab-1" class="sd-status-item done">
+                                    <div class="sd-status-visual-elements">
+                                        <div class="sd-status-icon"><img src="img/icon-ok.svg" alt=""></div>
+                                        <div class="sd-status-separator"></div>
+                                    </div>
+                                    <div class="sd-status-description">Согласие о переходе на КЭДО</div>
+                                </a>
+                                <a href="#sd-status-tab-2" class="sd-status-item done">
+                                    <div class="sd-status-visual-elements">
+                                        <div class="sd-status-icon "><img src="img/icon-ok.svg" alt=""></div>
+                                        <div class="sd-status-separator"></div>
+                                    </div>
+                                    <div class="sd-status-description">Бумажное соглашение об использовании УНЭП</div>
+                                </a>
+                                <a href="#sd-status-tab-3" class="sd-status-item active">
+                                    <div class="sd-status-visual-elements">
+                                        <div class="sd-status-icon">
+                                            3
+                                        </div>
+                                        <div class="sd-status-separator"></div>
+                                    </div>
+                                    <div class="sd-status-description">Проверка перс. данных для выпуска УНЭП</div>
+                                </a>
+                                <a href="#sd-status-tab-4" class="sd-status-item ready">
+                                    <div class="sd-status-visual-elements">
+                                        <div class="sd-status-icon">4</div>
+                                        <div class="sd-status-separator"></div>
+                                    </div>
+                                    <div class="sd-status-description">Идентификация </div>
+                                </a>
+                                <a href="#sd-status-tab-5" class="sd-status-item ready">
+                                    <div class="sd-status-visual-elements">
+                                        <div class="sd-status-icon">5</div>
+                                        <div class="sd-status-separator"></div>
+                                    </div>
+                                    <div class="sd-status-description">Подписание заявления на УНЭП</div>
+                                </a>
+                                <a href="#sd-status-tab-6" class="sd-status-item ready">
+                                    <div class="sd-status-visual-elements">
+                                        <div class="sd-status-icon">6</div>
+                                    </div>
+                                    <div class="sd-status-description">УНЭП выпущена</div>
+                                </a>
+                            </div>
+                            <a href="#" class="status-step-arrow right">
+                                <img src="img/arrow-back.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="identification">
+                        <div class="identification__wrapper">
+                            <div class="identification-left__container">
+                                <img src="img/icon-people.svg" alt="identification">
+                                <div class="identification-txt__container">
+                                    <h2>Пройдите идентификацию</h2>
+                                    <p>В соответствии с законодательством РФ, вам потребуется пройти идентификацию личности.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="btn-group">
+                                <a href="#" class="btn filled submit-app">
+                                    <span>Пройти через ЕСИА</span>
+                                </a>
+                                <a href="#" class="btn back-link back">
+                                    <span>Пройти очно</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="notification">
+                        <div class="notification__wrapper">
+                            <img src="img/icon-smile-sad.svg" alt="notification">
+                            <div class="notification-txt__container">
+                                <h2>При отправке ваших перс. данных произошла техническая ошибка</h2>
+                                <p>Техническая поддержка уже работает над ней, скоро мы все исправим.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="notification small">
+                        <div class="notification__wrapper">
+                            <div class="notification-txt__container">
+                                <p class="notif-txt">После подписи уведомления о переходе на КЭДО вам будет необходимо заполнить еще один документ и передать его во Фронт Офис.</p>
+                            </div>
+                            <div class="btn__container">
+                                <a href="#">Посмотреть адрес</a>
+                                <a href="request-unep8.html">Вернуться к оформлению</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="notification front-office">
+                        <div class="notification__wrapper">
+                            <div class="notification-txt__container">
+                                <h2>Придите во Фронт Офис </h2>
+                                <p>Пожалуйста, распечатайте шаблон соглашения, подпишите и передайте во Фронт Офис, чтобы продолжить получение УНЭП.</p>
+                            </div>
+                            <a href="#modal-sample" rel="modal:open" class="btn">Адреса Фронт Офисов</a>
+
+                        </div>
+                    </div>
+
+                </section>
+            </section>
+            <footer>
+                <a href="# " class="politics ">Политика конфиденциальности</a>
+            </footer>
+        </section>
+    </main>
+    <div id="modal-sample" class="modal">
+        <div class="modal-body memo-main">
+            <h5>Адреса Фронт Офисов</h5>
+            <ul>
+                <li>г. Москва, ул. Ленина, 4</li>
+                <li>г. Казань, ул. Заводская, 7</li>
+                <li>г. Москва, ул. Ленина, 4</li>
+            </ul>
+        </div>
+    </div>
+    <script src="js/jquery-3.4.1.min.js "></script>
+    <script src="js/jquery.modal.min.js"></script>
+    <script src="js/request-unep14.js "></script>
+</body>
+
+</html>
