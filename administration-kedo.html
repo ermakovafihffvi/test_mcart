@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/ui.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/chosen.css">
+    <link rel="stylesheet" href="css/administration.css">
+    <title>Сотрудники</title>
+</head>
+
+<body>
+    <header class="main-head">
+        <section class="header-wrapper">
+            <a href="#" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+            <a href="/" class="logo-wrapper">
+                <img src="img/logo.svg" alt="">
+            </a>
+
+            <div class="general-container__right">
+                <div class="upper-menu">
+                    <div class="menu-item with-dd">
+                        <a href="#" class="menu-item__name">
+                            <span>О компании</span>
+                        </a>
+                        <div class="menu-dropdown">
+                            <div class="menu-dropdown__item with-dd">
+                                <a href="#" class="menu-item__name">
+                                    <span>Структурные подразделения</span>
+                                </a>
+                                <div class="menu-dropdown">
+                                    <a href="#" class="menu-item__name">
+                                        <span>Административное управление</span>
+                                    </a>
+                                    <a href="#" class="menu-item__name">
+                                        <span>Дирекция казначейства</span>
+                                    </a>
+                                    <a href="#" class="menu-item__name">
+                                        <span>Филиал ООО «Центр корпративных решений» в г. Воронеже</span>
+                                    </a>
+                                    <a href="#" class="menu-item__name">
+                                        <span>Управление сопровождения закупок</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="menu-dropdown__item with-dd">
+                                <a href="#" class="menu-item__name">
+                                    <span>Структурные подразделения</span>
+                                </a>
+                                <div class="menu-dropdown">
+                                    <a href="#" class="menu-item__name">
+                                        <span>Административное управление</span>
+                                    </a>
+                                    <a href="#" class="menu-item__name">
+                                        <span>Дирекция казначейства</span>
+                                    </a>
+                                    <a href="#" class="menu-item__name">
+                                        <span>Филиал ООО «Центр корпративных решений» в г. Воронеже</span>
+                                    </a>
+                                    <a href="#" class="menu-item__name">
+                                        <span>Управление сопровождения закупок</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item__name">
+                            <span>Сервисы</span>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item__name">
+                            <span>Полезная информация</span>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item__name">
+                            <div class="status-task"></div>
+                            <span class="title-item">Мои задачи</span>
+                            <div class="num-task"><span>19</span></div>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item__name">
+                            <a href="#" class="btn filled">Помощь</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="search-wrapper main-search">
+                    <div class="search-holder" style="/* display: none; */">
+                        <button class="search-button">
+                            <img src="img/search.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+                <div class="user-profile">
+                    <a href="profile-self.html" class="user-avatar" style="background-image: url(img/image-profile.png)"></a>
+                    <div class="profile-desc">
+                        <div class="name-people">Константинопольский И. К.</div>
+                        <div class="count-table">
+                            <p>Таб. номер </p><span> 156479</span>
+                        </div>
+                    </div>
+                    <a class="user-logout">
+                        <img src="img/logout.svg" alt="">
+                        <div class="modal-logout">
+                            <div class="modal-logout__wrapper">
+                                <div class="white-block">
+                                    <h2>Вы уверены что хотите выйти?</h2>
+                                    <div class="line-block centered">
+                                        <button class="btn filled"><span>Да</span></button>
+                                        <button class="btn borderless"><span>Нет</span></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <aside class="main-sidebar">
+            <div class="sidebar-menu">
+                <a class="sidebar-menu__item" href="#">
+                    <span class="sidebar-item__icon">
+                        <img src="img/star.svg" alt="">
+                    </span>
+                    <span>Предложи идею</span>
+                </a>
+                <a class="sidebar-menu__item" href="#">
+                    <span class="sidebar-item__icon">
+                        <img src="img/screen.svg" alt="">
+                    </span>
+                    <span>Success factors</span>
+                </a>
+                <a class="sidebar-menu__item" href="#">
+                    <span class="sidebar-item__icon">
+                        <img src="img/bag.svg" alt="">
+                    </span>
+                    <span>Дистанционная работа</span>
+                </a>
+            </div>
+            <a href="#" class="work-from-home">
+                <span>Работать из дома</span><br>
+                <span>очень просто</span>
+            </a>
+            <a href="#" class="btn iconed support-center">
+                <span>
+                    <img src="img/support.svg" alt="">
+                </span>
+                <span>Центр поддержки</span>
+            </a>
+        </aside>
+        <section class="main-content  main-page">
+            <section class="wrapper">
+                <h1>Администрирование</h1>
+                <div class="document-switcher">
+                    <div class="tabs-switchers page-menu">
+                        <div class="page-menu__wrapper">
+                            <a href="#switcher-tab1" class="page-menu__item">
+                                <span class="page-menu__name">Поиск по сотруднику</span>
+                            </a>
+                            <a href="#switcher-tab2" class="page-menu__item">
+                                <span class="page-menu__name">Заявки</span>
+                            </a>
+                        </div>
+                        <div class="page-menu__wrapper">
+                            <a href="#switcher-tab3" class="page-menu__item active">
+                                <span class="page-menu__name">Отчеты</span>
+                            </a>
+                            <a href="#switcher-tab4" class="page-menu__item">
+                                <span class="page-menu__name">Аналитика</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="switcher-tabss">
+                        <div class="switcher-tab-content" id="switcher-tab1">
+                            <div class="container-manual">
+                                <div class="wrapper__container-manual">
+                                    <ol class="manual-list">
+                                        <li class="manual-item">В поисковой строке ниже укажите табельный номер или ФИО сотрудника. Для более точного поиска, укажите компанию;</li>
+                                        <li class="manual-item">Выберите сервис, котрый хотите просмотреть от лица сотрудника;
+                                        </li>
+                                        <li class="manual-item">Нажмите на кнопку «Перейти».</li>
+                                    </ol>
+                                </div>
+                            </div>
+                            <ul class="variants-list">
+                                <li class="variants-item">
+                                    <h2>1. Выберите сотрудника</h2>
+                                    <div class="container-selects">
+                                        <div class="select-item">
+                                            <select class="chosen-select" name="company" id="company" data-placeholder="Укажите компанию" style="display: none;">
+                                                <option value=""></option>
+                                                <option value="1">Компания 1</option>
+                                                <option value="2">Компания 2</option>
+                                                <option value="3">Компания 3</option>
+                                                <option value="4">Компания 4</option>
+                                            </select>
+                                        </div>
+                                        <div class="select-item">
+                                            <select class="chosen-select" name="employee" id="employee" data-placeholder="Выберите сотрудника" style="display: none;">
+                                                <option value=""></option>
+                                                <option value="1">Аверин Петр Петрович</option>
+                                                <option value="2">Авакадо Дмитрий Денисович</option>
+                                                <option value="3">Авентус Макар Петрович</option>
+                                                <option value="4">Авакадо Дмитрий Денисович</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="container-information" style="display: none;">
+                                        <div class="wrapper__container-information">
+                                            <p class=" title ">Проверьте сведения о сотруднике после вода табельного номера
+                                            </p>
+                                            <ul class="information-list">
+                                                <li class="information-item ">
+                                                    <p class="name-item ">ФИО</p>
+                                                    <p class="content-item ">Аверин Петр Петрович</p>
+                                                    <p class="name-item ">Табельный номер</p>
+                                                    <p class="content-item num ">84000079</p>
+                                                </li>
+                                                <li class="information-item ">
+                                                    <p class="name-item ">Компания</p>
+                                                    <p class="content-item ">Название компани</p>
+                                                    <p class="name-item ">Подразделение</p>
+                                                    <p class="content-item ">Подразделение</p>
+                                                </li>
+                                                <li class="information-item ">
+                                                    <p class="name-item ">Должность</p>
+                                                    <p class="content-item ">Специалист службы поддержки</p>
+                                                    <p class="name-item ">Тип трудоустройства</p>
+                                                    <p class="content-item ">Бессрочный</p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li id="blocked" class="variants-item blocked">
+                                    <h2>2. Выберите сервис</h2>
+                                    <div class="container-services">
+                                        <div class="select-item">
+                                            <select class="chosen-select" name="Статус" id="services" data-placeholder="Выберите сервис" style="display: none;">
+                                                <option value=" "></option>
+                                                <option value="1">Табель учета рабочего времени</option>
+                                                <option value="2">Отпуск</option>
+                                                <option value="3">График отпусков</option>
+                                                <option value="4">Комбинированный режим работы</option>
+                                            </select>
+                                        </div>
+                                        <a href="#" class="btn filled blocked" id="entry">Перейти</a>
+                                    </div>
+                                </li>
+                            </ul>
+
+
+                        </div>
+                        <div class="switcher-tab-content" id="switcher-tab2">
+                            <div class="available-services">
+                                <h2>Доступные сервисы</h2>
+                                <ul class="cards-list">
+                                    <li class="card-item">
+                                        <a class="card-wrapper" href="#">
+                                            <div class="card-content">
+                                                <img src="./img/services/icon-table.svg" width="40" height="40" alt="Табель учета рабочего времени">
+                                                <p class="name-card">Табель учета рабочего времени</p>
+                                            </div>
+                                            <div class="icon-info">
+                                                <img class="tooltip-borderless tooltipstered" src="./img/q2.svg" alt="info">
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="card-item">
+                                        <a class="card-wrapper" href="administration-vacation.html">
+                                            <div class="card-content">
+                                                <img src="./img/services/icon-vacation.svg" width="40" height="40" alt="Отпуск">
+                                                <p class="name-card">Отпуск</p>
+                                            </div>
+                                            <div class="icon-info">
+                                                <img class="tooltip-borderless tooltipstered" src="./img/q2.svg" alt="info">
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="card-item">
+                                        <a class="card-wrapper" href="#">
+                                            <div class="card-content">
+                                                <img src="./img/icon-calendar2.svg" width="40" height="40" alt="График отпусков">
+                                                <p class="name-card">График отпусков</p>
+                                            </div>
+                                            <div class="icon-info">
+                                                <img class="tooltip-borderless tooltipstered" src="./img/q2.svg" alt="info">
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="card-item">
+                                        <a class="card-wrapper" href="#">
+                                            <div class="card-content">
+                                                <img src="./img/icon-calendar.svg" width="40" height="40" alt="Комбинированный режим работы">
+                                                <p class="name-card">Комбинированный режим работы</p>
+                                            </div>
+                                            <div class="icon-info">
+                                                <img class="tooltip-borderless tooltipstered" src="./img/q2.svg" alt="info">
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="card-item">
+                                        <a class="card-wrapper" href="#">
+                                            <div class="card-content">
+                                                <img src="./img/icon-desk.svg" width="40" height="40" alt="Заявки на дни отдыха">
+                                                <p class="name-card">Заявки на дни отдыха</p>
+                                            </div>
+                                            <div class="icon-info">
+                                                <img class="tooltip-borderless tooltipstered" src="./img/q2.svg" alt="info">
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="card-item">
+                                        <a class="card-wrapper" href="#">
+                                            <div class="card-content"> <img src="./img/services/icon-financial assistance.svg" width="40" height="40" alt="Материальная помощь">
+                                                <p class="name-card">Материальная помощь</p>
+                                            </div>
+
+                                            <div class="icon-info">
+                                                <img class="tooltip-borderless tooltipstered" src="./img/q2.svg" alt="info">
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="card-item">
+                                        <a class="card-wrapper" href="#">
+                                            <div class="card-content">
+                                                <img src="./img/services/icon-consultations.svg" width="40" height="40" alt="Консультации">
+                                                <p class="name-card ">Консультации</p>
+                                            </div>
+                                            <div class="icon-info">
+                                                <img class="tooltip-borderless tooltipstered" src="./img/q2.svg" alt="info">
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="card-item">
+                                        <a class="card-wrapper" href="#">
+                                            <div class="card-content">
+                                                <img src="./img/icon-file.svg" width="40" height="40" alt="Справки">
+                                                <p class="name-card">Справки</p>
+                                            </div>
+                                            <div class="icon-info">
+                                                <img class="tooltip-borderless tooltipstered" src="./img/q2.svg" alt="info">
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="card-item">
+                                        <a class="card-wrapper" href="# ">
+                                            <div class="card-content">
+                                                <img src="./img/icon-file.svg" width="40" height="40" alt="КЭДО">
+                                                <p class="name-card">КЭДО</p>
+                                            </div>
+                                            <div class="icon-info">
+                                                <img class="tooltip-borderless tooltipstered" src="./img/q2.svg" alt="info">
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="card-item">
+                                        <a class="card-wrapper" href="#">
+                                            <div class="card-content">
+                                                <img src="./img/icon-file.svg" width="40" height="40" alt="Заявки на получение ПЭП">
+                                                <p class="name-card">Заявки на получение ПЭП</p>
+                                            </div>
+                                            <div class="icon-info">
+                                                <img class="tooltip-borderless tooltipstered" src="./img/q2.svg" alt="info">
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="card-item">
+                                        <a class="card-wrapper" href=" # ">
+                                            <div class="card-content">
+                                                <img src="./img/icon-file.svg" width="40" height="40" alt="Заявки на получение персональных данных">
+                                                <p class="name-card">Заявки на получение персональных данных</p>
+                                            </div>
+                                            <div class="icon-info">
+                                                <img class="tooltip-borderless tooltipstered" src="./img/q2.svg" alt="info">
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="card-item">
+                                        <a class="card-wrapper" href="#">
+                                            <div class="card-content">
+                                                <img src="./img/icon-file.svg" width="40" height="40" alt="Заявки на предоставление дней диспансеризации">
+                                                <p class="name-card">Заявки на предоставление дней диспансеризации</p>
+                                            </div>
+                                            <div class="icon-info">
+                                                <img class="tooltip-borderless tooltipstered" src="./img/q2.svg" alt="info">
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="card-item">
+                                        <a class="card-wrapper" href="#">
+                                            <div class="card-content">
+                                                <img src="./img/icon-calendar.svg" width="40" height="40" alt="Переход на электронный способ ведения трудовой книжки">
+                                                <p class="name-card">Переход на электронный способ ведения трудовой книжки
+                                                </p>
+                                            </div>
+                                            <div class="icon-info">
+                                                <img class="tooltip-borderless tooltipstered" src="./img/q2.svg" alt="info">
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="card-item">
+                                        <a class="card-wrapper" href="#">
+                                            <div class="card-content">
+                                                <img src="./img/services/icon-military.svg" width="40" height="40" alt="Воинский учет ">
+                                                <p class="name-card">Воинский учет</p>
+                                            </div>
+                                            <div class="icon-info">
+                                                <img class="tooltip-borderless tooltipstered" src="./img/q2.svg" alt="info">
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="switcher-tab-content active" id="switcher-tab3">
+                            <div class="reports">
+                                <h2>КЭДО</h2>
+                                <ul class="cards-list">
+                                    <li class="card-item">
+                                        <a class="card-wrapper" href="administration-unep-detail.html">
+                                            <div class="card-content">
+                                                <img src="./img/icon-file.svg" width="40" height="40" alt="УНЭП">
+                                                <p class="name-card ">УНЭП</p>
+                                            </div>
+                                            <div class="icon-info">
+                                                <img class="tooltip-borderless tooltipstered" src="./img/q2.svg" alt="info">
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="card-item">
+                                        <a class="card-wrapper" href="#">
+                                            <div class="card-content">
+                                                <img src="./img/icon-file.svg" width="40" height="40" alt="График отпусков">
+                                                <p class="name-card ">...</p>
+                                            </div>
+                                            <div class="icon-info">
+                                                <img class="tooltip-borderless tooltipstered" src="./img/q2.svg" alt="info">
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="card-item">
+                                        <a class="card-wrapper" href="#">
+                                            <div class="card-content">
+                                                <img src="./img/icon-file.svg" width="40" height="40" alt="Командировки">
+                                                <p class="name-card ">...</p>
+                                            </div>
+                                            <div class="icon-info">
+                                                <img class="tooltip-borderless tooltipstered" src="./img/q2.svg" alt="info">
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="card-item ">
+                                        <a class="card-wrapper" href="#">
+                                            <div class="card-content">
+                                                <img src="./img/icon-file.svg" width="40" height="40" alt="Консультации">
+                                                <p class="name-card ">...</p>
+                                            </div>
+                                            <div class="icon-info">
+                                                <img class="tooltip-borderless tooltipstered" src="./img/q2.svg" alt="info">
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="card-item">
+                                        <a class="card-wrapper" href="#">
+                                            <div class="card-content">
+                                                <img src="./img/icon-file.svg" width="40" height="40" alt="Справки">
+                                                <p class="name-card">...</p>
+                                            </div>
+                                            <div class="icon-info">
+                                                <img class="tooltip-borderless tooltipstered" src="./img/q2.svg" alt="info">
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="switcher-tab-content" id="switcher-tab4">
+                            <div class="analytics">
+                                <h2>Доступные сервисы</h2>
+                                <ul class="cards-list">
+                                    <li class="card-item">
+                                        <a class="card-wrapper" href="#">
+                                            <div class="card-content">
+                                                <img src="./img/services/icon-vacation.svg" width="40" height="40" alt="Отпуск">
+                                                <p class="name-card">Отпуск</p>
+                                            </div>
+                                            <div class="icon-info">
+                                                <img class="tooltip-borderless tooltipstered" src="./img/q2.svg" alt="info">
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="card-item">
+                                        <a class="card-wrapper" href="#">
+                                            <div class="card-content">
+                                                <img src="./img/icon-calendar2.svg" width="40" height="40" alt="График отпусков">
+                                                <p class="name-card">График отпусков</p>
+                                            </div>
+                                            <div class="icon-info">
+                                                <img class="tooltip-borderless tooltipstered" src="./img/q2.svg" alt="info">
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="card-item">
+                                        <a class="card-wrapper" href="#">
+                                            <div class="card-content">
+                                                <img src="./img/services/icon-business trips.svg" width="40" height="40" alt="Командировки">
+                                                <p class="name-card">Командировки</p>
+                                            </div>
+                                            <div class="icon-info">
+                                                <img class="tooltip-borderless tooltipstered" src="./img/q2.svg" alt="info">
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="card-item">
+                                        <a class="card-wrapper" href="#">
+                                            <div class="card-content">
+                                                <img src="./img/services/icon-consultations.svg" width="40" height="40" alt="Консультации">
+                                                <p class="name-card">Консультации</p>
+                                            </div>
+                                            <div class="icon-info">
+                                                <img class="tooltip-borderless tooltipstered" src="./img/q2.svg" alt="info">
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="card-item">
+                                        <a class="card-wrapper" href="#">
+                                            <div class="card-content">
+                                                <img src="./img/icon-file.svg " width="40 " height="40 " alt="Справки">
+                                                <p class="name-card ">Справки</p>
+                                            </div>
+                                            <div class="icon-info">
+                                                <img class="tooltip-borderless tooltipstered" src="./img/q2.svg" alt="info">
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="card-item">
+                                        <a class="card-wrapper" href="#">
+                                            <div class="card-content">
+                                                <img src="./img/services/icon-other statements.svg" width="40 " height="40" alt="Статусы подписания документов">
+                                                <p class="name-card">Статусы подписания документов</p>
+                                            </div>
+                                            <div class="icon-info">
+                                                <img class="tooltip-borderless tooltipstered" src="./img/q2.svg" alt="info">
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="card-item">
+                                        <a class="card-wrapper" href="#">
+                                            <div class="card-content">
+                                                <img src="./img/services/icon-sick leave.svg" width="40" height="40" alt="Журнал операций">
+                                                <p class="name-card">Журнал операций</p>
+                                            </div>
+                                            <div class="icon-info">
+                                                <img class="tooltip-borderless tooltipstered" src="./img/q2.svg" alt="info">
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="card-item">
+                                        <a class="card-wrapper" href="#">
+                                            <div class="card-content">
+                                                <img src="./img/icon-file.svg" width="40" height="40" alt="КЭДО">
+                                                <p class="name-card">КЭДО</p>
+                                            </div>
+                                            <div class="icon-info">
+                                                <img class="tooltip-borderless tooltipstered" src="./img/q2.svg" alt="info">
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer>
+                <a href="#" class="politics">Политика конфиденциальности</a>
+            </footer>
+        </section>
+
+    </main>
+    <script src="js/jquery-3.4.1.min.js "></script>
+    <script src="js/chosen.jquery.min.js "></script>
+    <script src="js/administration.js"></script>
+
+</body>
+
+</html>
